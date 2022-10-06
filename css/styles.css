@@ -1,0 +1,40 @@
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+.logo-1 {
+    color: #2196F3;
+}
+.logo-2 {
+    color: #000000;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/*стилізація навігації*/
+.site-nav .linknav {
+    color: #212121;
+    
+}
+.site-nav .linknav:hover, .site-nav .linknav:focus {
+    color: #2196F3;
+}
+.address .addressnav {
+    color: #757575;
+}
+.address .addressnav:hover, .address .addressnav:focus {
+    color: #2196F3;
+}
+/*секції*/
+.section .section-title {
+    color: #212121;
+}
+/*цвет основно
+го текста*/
+/*вторичный цвет текста*/
+/*белый*/
+/*акцент*/
+/*вторичный цвет фона*/
