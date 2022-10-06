@@ -1,12 +1,23 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:  #2196F3;
+    --primary-white-color: #ffffff;
+    --bg-color-footer-hero: #2F303A;
+}
 body {
     background-color: #F5F5F5;
-    color: #757575;
+    color: var(--primary-text-color);
+    font-family: Roboto;
 }
-.logo-1 {
-    color: #2196F3;
+.logo-one {
+    color: var(--accent-color);
 }
-.logo-2 {
+.logo-two {
     color: #000000;
+}
+.logo-three {
+    color: var(--primary-white-color);
 }
 .list {
     list-style: none;
@@ -15,26 +26,63 @@ body {
     text-decoration: none;
 }
 /*стилізація навігації*/
+.site-nav .linknav.current {
+    color: var(--accent-color);
+}
+
 .site-nav .linknav {
-    color: #212121;
+    color: var(--title-text-color);
     
 }
-.site-nav .linknav:hover, .site-nav .linknav:focus {
-    color: #2196F3;
+.site-nav .linknav:hover,
+.site-nav .linknav:focus {
+    color: var(--accent-color);
 }
 .address .addressnav {
-    color: #757575;
+    color: var(--primary-text-color);
 }
-.address .addressnav:hover, .address .addressnav:focus {
-    color: #2196F3;
+.address .addressnav:hover,
+.address .addressnav:focus {
+    color: var(--accent-color);
 }
 /*секції*/
-.section .section-title {
-    color: #212121;
+/*hero*/
+.hero-title {
+background-color: var(--bg-color-footer-hero);
+color: var(--primary-white-color);
 }
-/*цвет основно
-го текста*/
-/*вторичный цвет текста*/
-/*белый*/
-/*акцент*/
-/*вторичный цвет фона*/
+.section .section-title {
+    color: var(--title-text-color);
+}
+.feature-list .title {
+
+}
+/*футер*/
+.footer {
+    background-color: var(--bg-color-footer-hero);
+    color:var(--primary-white-color);
+}
+.list .linkfooter {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.list .linkfooter:hover,
+.list .linkfooter:focus {
+    color: var(--accent-color);
+}
+/*button*/
+.button {
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    border: transparent;
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.button.secondary {
+    background-color: #f5f4fa;
+    color: var(--title-text-color);
+}
