@@ -70,8 +70,10 @@ body {
 }
 /*секції*/
 /*hero*/
+.hero {
+    background-color: var(--bg-color-footer-hero);
+}
 .hero-title {
-     background-color: var(--bg-color-footer-hero);
      color: var(--primary-white-color);
      font-weight: 900;
      font-size: 44px;
