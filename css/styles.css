@@ -4,21 +4,34 @@
     --accent-color:  #2196F3;
     --primary-white-color: #ffffff;
     --bg-color-footer-hero: #2F303A;
+    --bg-color-section: #F5F4FA;
+    --primary-black-color: #000000;
 }
+
 body {
-    background-color: #F5F5F5;
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 .logo-one {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-two {
-    color: #000000;
-}
+    color: var(--primary-black-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+        line-height: 1.19;
+    }
 .logo-three {
     color: var(--primary-white-color);
-}
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    }
 .list {
     list-style: none;
 }
@@ -28,11 +41,18 @@ body {
 /*стилізація навігації*/
 .site-nav .linknav.current {
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .linknav {
     color: var(--title-text-color);
-    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .linknav:hover,
 .site-nav .linknav:focus {
@@ -40,6 +60,9 @@ body {
 }
 .address .addressnav {
     color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .address .addressnav:hover,
 .address .addressnav:focus {
@@ -48,14 +71,31 @@ body {
 /*секції*/
 /*hero*/
 .hero-title {
-background-color: var(--bg-color-footer-hero);
-color: var(--primary-white-color);
+     background-color: var(--bg-color-footer-hero);
+     color: var(--primary-white-color);
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
 }
 .section .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
 }
-.feature-list .title {
-
+.section.comand {
+    background-color: var(--bg-color-section);
+}
+.resources {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    
 }
 /*футер*/
 .footer {
@@ -65,25 +105,77 @@ color: var(--primary-white-color);
 .list .linkfooter {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-size: 14px;
+    line-height: 2;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 .list .linkfooter:hover,
 .list .linkfooter:focus {
     color: var(--accent-color);
 }
+.list .names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  
+}
+.list .people {
+   
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*особливості*/
+.feature-list .title {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-list .description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+   
+}
+.section .occupation {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.footer .addressfooter {
+    color: var(--primary-white-color);
+    font-size: 14px;
+    line-height: 2;
+    font-style: normal;
+    
+}
+
+
 /*button*/
 .button {
     font-size: 16px;
-    border-radius: 4px;
-    display: inline-block;
-    text-align: center;
+    font-weight: 500;
+    line-height: 1.62;
     border: transparent;
     cursor: pointer;
+   
 }
 .button.primary {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
 .button.secondary {
-    background-color: #f5f4fa;
+    background-color: var(--bg-color-section);
     color: var(--title-text-color);
+}
+.hero > .button.primary {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    border: transparent;
+    cursor: pointer;
+    letter-spacing: 0.06em;
 }
