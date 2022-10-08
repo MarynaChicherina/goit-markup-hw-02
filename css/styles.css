@@ -36,36 +36,29 @@ body {
     text-decoration: none;
 }
 /*стилізація навігації*/
-.site-nav .linknav.current {
-    color: var(--accent-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.site-nav .linknav {
+.linknav {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.site-nav .linknav:hover,
-.site-nav .linknav:focus {
+.linknav:hover,
+.linknav:focus,
+.linknav.current {
     color: var(--accent-color);
 }
-.address .addressnav {
+.addressnav {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.address .addressnav:hover,
-.address .addressnav:focus {
+.addressnav:hover,
+.addressnav:focus {
     color: var(--accent-color);
 }
-/*секції*/
+
 /*hero*/
 .hero {
     background-color: var(--bg-color-footer-hero);
@@ -79,18 +72,20 @@ body {
      letter-spacing: 0.06em;
      text-transform: uppercase;
 }
+/*секції*/
 .section-title {
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    
 }
-.section.comand {
+.section {
+    color: var(--title-text-color);
+}
+.section-comand {
     background-color: var(--bg-color-section);
 }
 .resources {
-    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
     
@@ -101,30 +96,27 @@ body {
     color:var(--primary-white-color);
 }
 .addressfooter {
-    color: var(--primary-white-color);
     font-size: 14px;
     line-height: 2;
     font-style: normal;
 }
-.list .linkfooter {
+.linkfooter {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-size: 14px;
     line-height: 2;
     font-style: normal;
-    letter-spacing: 0.03em;
 }
-.list .linkfooter:hover,
-.list .linkfooter:focus {
+.linkfooter:hover,
+.linkfooter:focus {
     color: var(--accent-color);
 }
-.list .names {
+.names {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-  
 }
-.list .people {
+.people {
     font-size: 16px;
     line-height: 1.19;
 }
@@ -145,8 +137,6 @@ body {
     text-align: center;
 }
 
-
-
 /*button*/
 .button {
     font-weight: 500;
@@ -166,10 +156,7 @@ body {
     color: var(--title-text-color);
 }
 .hero > .button.primary {
-    font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
-    border: transparent;
-    cursor: pointer;
     letter-spacing: 0.06em;
 }
