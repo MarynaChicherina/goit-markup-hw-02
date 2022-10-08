@@ -14,24 +14,21 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-.logo-one {
-    color: var(--accent-color);
+/*logo*/
+.logo {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
 }
-.logo-two {
+.logo>.logo-one {
+    color: var(--accent-color);
+    }
+.logo>.logo-two {
     color: var(--primary-black-color);
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-        line-height: 1.19;
-    }
-.logo-three {
+        }
+.logo>.logo-three {
     color: var(--primary-white-color);
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
-    }
+       }
 .list {
     list-style: none;
 }
@@ -82,9 +79,8 @@ body {
      letter-spacing: 0.06em;
      text-transform: uppercase;
 }
-.section .section-title {
+.section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -103,6 +99,12 @@ body {
 .footer {
     background-color: var(--bg-color-footer-hero);
     color:var(--primary-white-color);
+}
+.addressfooter {
+    color: var(--primary-white-color);
+    font-size: 14px;
+    line-height: 2;
+    font-style: normal;
 }
 .list .linkfooter {
     color: rgba(255, 255, 255, 0.6);
@@ -123,47 +125,37 @@ body {
   
 }
 .list .people {
-   
     font-size: 16px;
     line-height: 1.19;
 }
 /*особливості*/
-.feature-list .title {
-    
-    font-weight: 700;
+.title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
-.feature-list .description {
-    font-weight: 700;
+.description {
     font-size: 14px;
     line-height: 2;
    
 }
-.section .occupation {
-    font-weight: 700;
+.occupation {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-.footer .addressfooter {
-    color: var(--primary-white-color);
-    font-size: 14px;
-    line-height: 2;
-    font-style: normal;
-    
-}
+
 
 
 /*button*/
 .button {
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.62;
     border: transparent;
     cursor: pointer;
-   
+    list-style: none;
+
 }
 .button.primary {
     background-color: var(--accent-color);
