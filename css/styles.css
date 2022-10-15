@@ -89,14 +89,12 @@ body {
          letter-spacing: 0.06em;
      text-transform: uppercase;
 
-     outline: 2px solid teal;
 }
 /*секції*/
 .features {
     padding-top: 94px;
     padding-bottom: 94px;
 
-    outline: 2px solid green;
 }
 /*нужно решить вопрос как уьрать с макета єтот заголовок!*/
 .hidden {
@@ -113,16 +111,17 @@ body {
     padding-top: 0;
     padding-bottom: 94px;
 
-    outline: 2px solid blue;
 }
 .section-title {
-    
+    margin-top: 20px;
+    margin-bottom: 4px;
+
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 
-    outline: 2px solid black;
+    outline: 2px solid blue;
 }
 .section {
     color: var(--title-text-color);
@@ -134,12 +133,30 @@ body {
 
     background-color: var(--bg-color-section);
 
-    outline: 2px solid yellow;
+}
+/*секція projects портфоліо*/
+.projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    outline: 2px solid blueviolet;
+}
+.selector {
+    margin-top: 0;
+    margin-bottom: 50px;
+    dislplay: flex;
+
+    outline: 2px solid teal;
 }
 .resources {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+
     font-size: 16px;
     line-height: 1.88;
     
+    outline: 2px solid red;
 }
 /*футер*/
 .footer {
@@ -148,16 +165,13 @@ body {
 
     background-color: var(--bg-color-footer-hero);
     color:var(--primary-white-color);
-
-    outline: 2px solid orangered;
+    
 }
 .address {
     margin-top: 20px;
     margin-bottom: 0;
-    width: 231px;
-    
-    
-    outline: 2px solid violet;
+    min-width: 231px;
+        
 }
 .addressfooter {
     margin-top: 0;
@@ -183,8 +197,7 @@ body {
 }
 .footeraddress {
     margin-top: 20px;
-
-    outline: 2px solid white;
+    
 }
 .names {
     margin-top: 30px;
@@ -230,7 +243,7 @@ body {
 
 /*button*/
 .button {
-       
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
