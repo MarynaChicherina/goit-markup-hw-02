@@ -86,7 +86,7 @@ body {
      font-weight: 900;
      font-size: 44px;
      line-height: 1.36;
-         letter-spacing: 0.06em;
+     letter-spacing: 0.06em;
      text-transform: uppercase;
 
 }
@@ -121,7 +121,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    outline: 2px solid blue;
+    
 }
 .section {
     color: var(--title-text-color);
@@ -139,14 +139,14 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 
-    outline: 2px solid blueviolet;
+    
 }
 .selector {
     margin-top: 0;
     margin-bottom: 50px;
     dislplay: flex;
 
-    outline: 2px solid teal;
+    
 }
 .resources {
     margin-top: 0;
@@ -156,7 +156,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     
-    outline: 2px solid red;
+    
 }
 /*футер*/
 .footer {
